@@ -4,10 +4,10 @@
 
 ```shell
 # install it globally
-$ npm install -g zx-cli
+$ npm install -g zxs-cli
 
 # or yarn
-$ yarn global add zx-cli
+$ yarn global add zxs-cli
 ```
 
 ### 使用 
