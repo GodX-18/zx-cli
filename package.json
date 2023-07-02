@@ -1,6 +1,6 @@
 {
   "name": "zxs-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -16,7 +16,7 @@
     "email": "1046529973@qq.com"
   },
   "keywords": [
-    "zx-cli",
+    "zxs-cli",
     "zx",
     "脚手架"
   ],
