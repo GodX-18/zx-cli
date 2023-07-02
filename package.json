@@ -1,0 +1,37 @@
+{
+  "name": "zx-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "zx": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "author": {
+    "name": "GodX",
+    "email": "1046529973@qq.com"
+  },
+  "keywords": [
+    "zx-cli",
+    "zx",
+    "脚手架"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.9",
+    "figlet": "^1.6.0",
+    "fs-extra": "^11.1.1",
+    "ora": "^6.3.1"
+  }
+}
