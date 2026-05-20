@@ -1,10 +1,13 @@
 #! /usr/bin/env node
-
 import { program } from "commander";
 import { check } from "../lib/create.js";
 import chalk from "chalk";
 import figlet from "figlet";
-import info from "../package.json" assert { type: "json" };
+import { createRequire } from "module";
+
+// 兼容 Node 14+，使用 createRequire 导入 JSON
+const require = createRequire(import.meta.url);
+const info = require("../package.json");
 
 program
   .command("create <app-name>")
